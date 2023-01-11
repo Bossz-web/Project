@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: url(/images/ian-schneider-TamMbr4okv4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    padding-left: 30px;
+    color: rgb(5, 0, 78);
+    font-size: 25px;
+}
+ul {
+    padding-right: 30px;
+}
+ul li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    padding: 8px;
+    text-transform: uppercase;
+}
+ul li a {
+    color: rgb(5, 0, 78);
+}
+ul li a:hover {
+    transition: 1s;
+    color: rgb(255, 0, 0);
+}
+
+.contents {
+    justify-content: center;
+    text-align: center;
+}
+
+.contents h1 {
+    padding-top: 80px;
+    color: rgb(116, 108, 108);
+    font-family: serif;
+    font-weight: 500;
+    font-size: 45px; color: rgb(5, 0, 78);
+}
+.btn {
+    padding-top: 40px;
+}
+
+button {
+    background-color:  rgb(5, 0, 78);
+    padding: 10px 25px;
+    border: 1px solid rgb(5, 0, 70);
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+button a {
+    color: rgb(255, 254, 254);
+}
+
+button:hover {
+    background-color: red;
+    transition: 1.5s;
+    border: 1px solid red;
+}
+.contact-box {
+    border-radius: 20px;
+    border: 2px solid transparent;
+    width: 400px;
+    top: 20%;
+    left: 39%;
+    position: absolute;
+    background-color: transparent;
+  
+  }
+  
+  .form {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  .texts {
+    padding-right: 30px;
+  }
+  .input-field {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+  }
+  .textarea-field{
+    height: 150px;
+    padding-top: 10px;
+  }
